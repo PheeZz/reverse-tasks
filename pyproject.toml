@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "reverse-tasks"
+version = "0.1.0"
+description = ""
+authors = ["PheeZz <jagubkoff@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+scikit-image = "^0.22.0"
+matplotlib = "^3.8.3"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.2.0"
+flake8 = "^7.0.0"
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
